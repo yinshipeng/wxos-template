@@ -3,9 +3,9 @@ const params = (argv.original && argv.original[2]) || 'prod'
 
 // api接口地址
 const apiPrefix = {
-    dev: 'https://hulu.houbank.net/offlineloan',
-    sm: 'https://hulu.houbank.com/offlineloan',
-    prod: 'https://hulu.houbank.com/offlineloan',
+    dev: 'https://test.net/offlineloan',
+    sm: 'https://test.com/offlineloan',
+    prod: 'https://test.com/offlineloan',
 }
 
 // assets静态文件地址
