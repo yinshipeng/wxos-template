@@ -15,11 +15,11 @@ const assetsUrls = {
     prod: 'http://p3eprano9.bkt.clouddn.com',
 }
 
-// 动态更新URL
+// 动态更新URL  test.com为测试 开发请换成自己的域名
 const downloadUrls = {
-    dev: 'https://apigateway.houbank.net/restapi/versionmanager/getLastAppVersion?appid=hulu&currentVersion=',
-    sm: 'https://apigateway.houbank.net/restapi/versionmanager/getLastAppVersion?appid=hulu&currentVersion=',
-    prod: 'https://apigateway.houbank.com/restapi/versionmanager/getLastAppVersion?appid=hulu&currentVersion=',
+    dev: 'https://test.com.net/restapi/versionmanager/getLastAppVersion?appid=hulu&currentVersion=',
+    sm: 'https://test.com.net/restapi/versionmanager/getLastAppVersion?appid=hulu&currentVersion=',
+    prod: 'https://test.com.com/restapi/versionmanager/getLastAppVersion?appid=hulu&currentVersion=',
 }
 
 if (!apiPrefix[params]) {
